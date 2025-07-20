@@ -1,0 +1,37 @@
+{
+  "user": {
+    "email": "maria@example.com",
+    "username": "maria24",
+    "password": "noori2011",
+    "billing_address": {
+      "first_name": "Maria",
+      "last_name": "Taskin",
+      "address": "123 Test St",
+      "city": "Dhaka",
+      "zip": "1219",
+      "country": "Bangladesh",
+      "phone": "01708427778"
+    },
+    "shipping_address": {
+      "first_name": "Maria",
+      "last_name": "Taskin",
+      "address": "123 Test St",
+      "city": "Dhaka",
+      "zip": "1219",
+      "country": "Bangladesh",
+      "phone": "01708427778"
+    }
+  },
+  "products": [
+    "Awesome Gadgets",
+    "Awesome Jewelry and Cosmetics"
+  ],
+  "payment": {
+    "card_type": "Visa",
+    "cardholder_name": "Maria Taskin",
+    "card_number": "4111111111111111",
+    "expiry_month": "09",
+    "expiry_year": "2030",
+    "cvv": "129"
+  }
+}
