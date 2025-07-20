@@ -6,12 +6,9 @@ class CheckoutPage:
         self.browser = browser
 
     def fill_billing_address(self, address):
-        self.browser.find_element(By.ID, "BillingNewAddress_FirstName").clear()
         self.browser.find_element(By.ID, "BillingNewAddress_FirstName").send_keys(address["first_name"])
-        self.browser.find_element(By.ID, "BillingNewAddress_LastName").clear()
         self.browser.find_element(By.ID, "BillingNewAddress_LastName").send_keys(address["last_name"])
         self.browser.find_element(By.ID, "BillingNewAddress_Email").clear()
-        # Email might be prefilled, so skip or fill if needed
         self.browser.find_element(By.ID, "BillingNewAddress_CountryId").send_keys(address["country"])
         self.browser.find_element(By.ID, "BillingNewAddress_City").clear()
         self.browser.find_element(By.ID, "BillingNewAddress_City").send_keys(address["city"])

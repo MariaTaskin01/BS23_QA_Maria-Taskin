@@ -11,12 +11,10 @@ def test_valid_login(browser):
     login = LoginPage(browser)
     login.login("maria24","noori2011")
 
-@pytest.mark.order(2)
 def test_search(browser):
     landing = LandingPage(browser)
     landing.landing_page()
 
-@pytest.mark.order(3)
 def test_add_multiple_products(browser):
     product_page = ProductPage(browser)
 

@@ -1,24 +1,28 @@
 {
   "user": {
-    "email": "maria@example.com",
+    "email": "mariataskin63@gmail.com",
     "username": "maria24",
+    "zip": "1219",
+    "region": "Dhaka",
+    "city": "Dhaka",
+    "country_value": "19",
+    "state_value": "70",
+    "phone": "01708427778",
+    "fax": "01708427778",
     "password": "noori2011",
-    "billing_address": {
-      "first_name": "Maria",
-      "last_name": "Taskin",
-      "address": "123 Test St",
-      "city": "Dhaka",
-      "zip": "1219",
-      "country": "Bangladesh",
-      "phone": "01708427778"
-    },
+    "click_newsletter": "FALSE",
+    "click_user_agreement": "FALSE",
+
     "shipping_address": {
       "first_name": "Maria",
       "last_name": "Taskin",
-      "address": "123 Test St",
+      "email": "mariataskin63@gmail.com",
+      "country_value": "19",
+      "state_value": "70",
+      "region": "Dhaka",
       "city": "Dhaka",
+      "address1": "Banasree",
       "zip": "1219",
-      "country": "Bangladesh",
       "phone": "01708427778"
     }
   },
